@@ -1,8 +1,8 @@
 import "dotenv/config";
 import express from "express";
-import todoListRouter from "./routes/todo-list.js";
-import todoItemRouter from "./routes/todo-item.js";
-import errorHandler from "./middlewares/error-handler.js";
+import todoListRouter from "./todo-list/todo-list.routes.js";
+import todoItemRouter from "./todo-item/todo-item.routes.js";
+import errorHandler from "./shared/middlewares/error-handler.js";
 
 const app = express();
 
